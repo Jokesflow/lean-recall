@@ -34,7 +34,7 @@ This was a blind A/B test on a real open-source project. It measured answer qual
 
 ## Where memory made the difference
 
-The "yesterday" session settled six decisions with the user: where the NO_COLOR check goes, which helper to use, where the tests go and how they fake a terminal, the changelog entry, and two files not to touch. It then stopped half-way. The next day's prompt was only *"Continue yesterday's work on NO_COLOR support and finish it."*
+The "yesterday" session settled six decisions with the user: what NO_COLOR does, that an explicit color argument wins, where the check and its helper go, where the tests go and how they fake a terminal, the changelog entry, and two files not to touch. It then stopped half-way. The next day's prompt was only *"Continue yesterday's work on NO_COLOR support and finish it."*
 
 - **Arm A, no memory:** the code was correct, but none of the runs followed the agreed test location. In 2 of 3 runs the tests patched `isatty` instead of using a tty stream, and one run edited a file it had been asked to leave alone.
 - **Arm B, with mind-palace:** all three runs followed every decision. The memory also held one wrong path, and all three runs checked it against the code and corrected it.
