@@ -30,4 +30,4 @@ File: `.claude/memory/context.md`. A hook injects it at session start; Read it o
 - One short line per entry, under the template's headings.
 - Stay under ~150 lines: merge, compress and prune stale entries instead of appending.
 - After a significant task, update it briefly: edit the affected lines, don't append a log.
-- File missing: create it from `${CLAUDE_PLUGIN_ROOT}/templates/context.md`.
+- File missing: don't create it unprompted; suggest `/lean-recall:remember`.
