@@ -136,4 +136,4 @@ A committed memory file is loaded like a committed `CLAUDE.md`, so read it in re
 
 ## License
 
-[MIT](LICENSE). Made for Claude Code.
+[MIT](LICENSE) · [Privacy policy](PRIVACY.md). Made for Claude Code.
