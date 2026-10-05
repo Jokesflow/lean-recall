@@ -43,6 +43,11 @@ if [ ! -f "$mem" ]; then
   exit 0
 fi
 
+if [ ! -r "$mem" ]; then
+  echo "lean-recall: .claude/memory/context.md is not readable, so it was not loaded."
+  exit 0
+fi
+
 lines=$(wc -l < "$mem" | tr -d ' ')
 bytes=$(wc -c < "$mem" | tr -d ' ')
 

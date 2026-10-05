@@ -9,7 +9,7 @@
 [ "${LEAN_RECALL_COMPACT_GATE:-1}" = 0 ] && exit 0
 [ -n "$CLAUDE_PLUGIN_DATA" ] || exit 0
 mem="${CLAUDE_PROJECT_DIR:-$PWD}/.claude/memory/context.md"
-if [ ! -f "$mem" ] || [ -L "$mem" ]; then exit 0; fi
+if [ ! -f "$mem" ] || [ -L "$mem" ] || [ ! -r "$mem" ]; then exit 0; fi
 
 input=
 [ -t 0 ] || input=$(cat)
