@@ -1,13 +1,19 @@
 {
-  "name": "lean-recall",
-  "version": "1.0.0",
-  "description": "Token-efficient working rules plus persistent project memory that loads automatically every session.",
+  "name": "mind-palace",
+  "version": "2.0.0",
+  "description": "Persistent project memory for Claude Code. Decisions, conventions, commands and open tasks load into every session and survive restarts, /clear and compaction.",
   "author": {
     "name": "Jokesflow",
     "url": "https://github.com/Jokesflow"
   },
-  "homepage": "https://github.com/Jokesflow/lean-recall",
-  "repository": "https://github.com/Jokesflow/lean-recall",
+  "homepage": "https://github.com/Jokesflow/mind-palace",
+  "repository": "https://github.com/Jokesflow/mind-palace",
   "license": "MIT",
-  "keywords": ["memory", "context", "tokens", "efficiency"]
+  "keywords": [
+    "memory",
+    "persistent-memory",
+    "long-term-memory",
+    "context",
+    "claude-code"
+  ]
 }

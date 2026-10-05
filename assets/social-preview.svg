@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+<title id="title">mind-palace</title>
+<desc id="desc">Persistent project memory for Claude Code</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0a0e22"/><stop offset="0.55" stop-color="#181046"/><stop offset="1" stop-color="#2c0e52"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.2" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#7c5cff" stop-opacity="0.42"/><stop offset="1" stop-color="#7c5cff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="tg" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#c7b6ff"/>
+  </linearGradient>
+  <linearGradient id="gold" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="240">
+    <stop offset="0" stop-color="#ffe6a3"/><stop offset="1" stop-color="#f2a65a"/>
+  </linearGradient>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+  </pattern>
+</defs>
+<rect width="1280" height="640" fill="url(#bg)"/>
+<rect width="1280" height="640" fill="url(#grid)"/>
+<rect width="1280" height="640" fill="url(#glow)"/>
+<g transform="translate(96 170) scale(1.3)">
+  <g fill="#8fe8ff" fill-opacity="0.13"><circle cx="56" cy="128" r="18"/><circle cx="120" cy="112" r="18"/><circle cx="184" cy="140" r="18"/><circle cx="88" cy="170" r="18"/><circle cx="152" cy="186" r="18"/><circle cx="120" cy="52" r="18"/></g>
+  <g fill="none" stroke="url(#gold)" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M0 78 L120 14 L240 78 Z"/><path d="M-12 90 H252"/><path d="M24 96 V206"/><path d="M88 96 V206"/><path d="M152 96 V206"/><path d="M216 96 V206"/>
+    <path d="M-22 218 H262"/><path d="M-38 234 H278"/>
+  </g>
+  <g stroke="#8fe8ff" stroke-opacity="0.55" stroke-width="2"><path d="M56 128 L120 112"/><path d="M120 112 L184 140"/><path d="M56 128 L88 170"/><path d="M88 170 L152 186"/><path d="M152 186 L184 140"/><path d="M120 112 L120 52"/></g>
+  <g fill="#b9f3ff"><circle cx="56" cy="128" r="7"/><circle cx="120" cy="112" r="7"/><circle cx="184" cy="140" r="7"/><circle cx="88" cy="170" r="7"/><circle cx="152" cy="186" r="7"/><circle cx="120" cy="52" r="9"/></g>
+</g>
+<text x="500" y="236" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="104" font-weight="800" letter-spacing="-2.5" fill="url(#tg)">mind-palace</text>
+<text x="504" y="296" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="34" fill="#d9cfff">Persistent project memory for Claude Code</text>
+<text x="504" y="346" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="24" fill="#a99bd9">Decisions, conventions and open tasks survive</text>
+<text x="504" y="380" font-family="Inter, 'Segoe UI', -apple-system, Helvetica, Arial, sans-serif" font-size="24" fill="#a99bd9">restarts, /clear and compaction.</text>
+<rect x="504" y="410" width="660" height="104" rx="14" fill="#05070f" fill-opacity="0.65" stroke="#c7b6ff" stroke-opacity="0.3"/>
+<text x="528" y="452" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="22" fill="#8fe8ff">&gt;</text>
+<text x="552" y="452" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="22" fill="#f1ecff">/plugin marketplace add Jokesflow/mind-palace</text>
+<text x="528" y="490" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="22" fill="#8fe8ff">&gt;</text>
+<text x="552" y="490" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="22" fill="#f1ecff">/plugin install mind-palace@mind-palace</text>
+</svg>

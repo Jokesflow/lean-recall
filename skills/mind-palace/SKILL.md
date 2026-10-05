@@ -1,9 +1,9 @@
 ---
-name: lean-recall
-description: Token-efficient working rules and persistent project memory in .claude/memory/context.md. Use for any coding task in a repository (searching, reading, editing, running commands) and whenever durable project facts should be saved or recalled.
+name: mind-palace
+description: Persistent project memory in .claude/memory/context.md plus lean, correctness-first working rules. Use when saving, recalling or updating durable project facts (decisions, conventions, commands, open tasks), and before multi-step coding work in a repository.
 ---
 
-# lean-recall
+# mind-palace
 
 ## Correctness first
 These override every rule below.
@@ -30,4 +30,4 @@ File: `.claude/memory/context.md`. A hook injects it at session start; Read it o
 - One short line per entry, under the template's headings.
 - Stay under ~150 lines: merge, compress and prune stale entries instead of appending.
 - After a significant task, update it briefly: edit the affected lines, don't append a log.
-- File missing: don't create it unprompted; suggest `/lean-recall:remember`.
+- File missing: don't create it unprompted; suggest `/mind-palace:remember`.

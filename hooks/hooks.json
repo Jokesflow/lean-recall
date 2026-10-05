@@ -1,5 +1,5 @@
 {
-  "description": "lean-recall: load project memory into context at session start; ask to save memory before a manual /compact.",
+  "description": "mind-palace: load project memory into context at session start; ask to save memory before a manual /compact.",
   "hooks": {
     "SessionStart": [
       {
