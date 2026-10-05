@@ -1,5 +1,5 @@
 # Project memory
-<!-- lean-recall: durable facts only, one short line each, under ~150 lines. No secrets. -->
+<!-- mind-palace: durable facts only, one short line each, under ~150 lines. No secrets. -->
 
 ## Stack
 

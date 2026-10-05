@@ -1,15 +1,15 @@
 {
-  "name": "lean-recall",
-  "description": "Marketplace for the lean-recall Claude Code plugin.",
+  "name": "mind-palace",
+  "description": "Marketplace for mind-palace: persistent project memory for Claude Code.",
   "owner": {
     "name": "Jokesflow",
     "url": "https://github.com/Jokesflow"
   },
   "plugins": [
     {
-      "name": "lean-recall",
+      "name": "mind-palace",
       "source": "./",
-      "description": "Token-efficient working rules plus persistent project memory that loads automatically every session."
+      "description": "Persistent project memory for Claude Code. Decisions, conventions, commands and open tasks load into every session and survive restarts, /clear and compaction."
     }
   ]
 }
