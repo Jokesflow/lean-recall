@@ -1,0 +1,15 @@
+{
+  "name": "lean-recall",
+  "description": "Marketplace for the lean-recall Claude Code plugin.",
+  "owner": {
+    "name": "Jokesflow",
+    "url": "https://github.com/Jokesflow"
+  },
+  "plugins": [
+    {
+      "name": "lean-recall",
+      "source": "./",
+      "description": "Token-efficient working rules plus persistent project memory that loads automatically every session."
+    }
+  ]
+}

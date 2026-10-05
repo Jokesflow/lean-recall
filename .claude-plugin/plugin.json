@@ -1,0 +1,13 @@
+{
+  "name": "lean-recall",
+  "version": "1.0.0",
+  "description": "Token-efficient working rules plus persistent project memory that loads automatically every session.",
+  "author": {
+    "name": "Jokesflow",
+    "url": "https://github.com/Jokesflow"
+  },
+  "homepage": "https://github.com/Jokesflow/lean-recall",
+  "repository": "https://github.com/Jokesflow/lean-recall",
+  "license": "MIT",
+  "keywords": ["memory", "context", "tokens", "efficiency"]
+}
