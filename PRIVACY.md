@@ -14,7 +14,7 @@ mind-palace is a Claude Code plugin that runs entirely on your machine. Its publ
 
 - It makes no network requests and has no telemetry, analytics or tracking.
 - It does not read credentials, secrets or environment variables, other than its own settings and the paths Claude Code provides.
-- It reads no project file other than the memory file.
+- Its hooks read no project file other than the memory file. Its commands may ask Claude to look at your code, for example to check memory entries against it; that happens inside your normal Claude Code session.
 - Claude is instructed never to save secrets, tokens, passwords or personal data (names, emails, addresses, phone numbers) to memory.
 - Symlinked and unreadable memory files are never loaded.
 
