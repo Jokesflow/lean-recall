@@ -26,7 +26,7 @@ File: `.claude/memory/context.md`. A hook injects it at session start; Read it o
   - key decisions and the reason for each
   - code conventions and user preferences
   - active tasks and remaining work
-- Never store transient details, file contents, secrets, tokens or passwords.
+- Never store transient details, file contents, secrets, tokens, passwords or personal data (names, emails, addresses, phone numbers).
 - One short line per entry, under the template's headings.
 - Stay under ~150 lines: merge, compress and prune stale entries instead of appending.
 - After a significant task, update it briefly: edit the affected lines, don't append a log.

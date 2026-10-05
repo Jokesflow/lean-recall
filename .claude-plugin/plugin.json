@@ -15,5 +15,7 @@
     "long-term-memory",
     "context",
     "claude-code"
-  ]
+  ],
+  "privacyPolicyUrl": "https://github.com/Jokesflow/mind-palace/blob/main/PRIVACY.md",
+  "supportUrl": "https://github.com/Jokesflow/mind-palace/issues"
 }

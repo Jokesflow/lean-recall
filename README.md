@@ -87,7 +87,7 @@ Plugin commands are namespaced, so type the full `/mind-palace:` name. The `mind
 | Stack, project structure, build/test/run commands | Transient details from one session |
 | Key decisions **and the reason** behind each | File contents |
 | Code conventions and your preferences | Secrets, tokens, passwords |
-| Active tasks and what's left | |
+| Active tasks and what's left | Personal data: names, emails, addresses |
 
 - **Budget:** about 150 lines. Entries are merged, compressed and pruned, never appended forever. Hook output over 10,000 characters reaches Claude only as a preview, which is why the hook warns early.
 - **Plain Markdown:** edit it by hand any time.
@@ -136,4 +136,4 @@ A committed memory file is loaded like a committed `CLAUDE.md`, so read it in re
 
 ## License
 
-[MIT](LICENSE). Made for Claude Code.
+[MIT](LICENSE) · [Privacy policy](PRIVACY.md). Made for Claude Code.
